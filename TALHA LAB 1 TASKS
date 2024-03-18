@@ -1,0 +1,423 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOc2QOWv4NJervWgdz8Cl3l",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/imtalha2003/AI-LAB-1/blob/main/TALHA%20LAB%201%20TASKS\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Ro8xe_fy2okW",
+        "outputId": "27418bbd-9231-4500-a3ca-3a9dec68aedc"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "hello world\n"
+          ]
+        }
+      ],
+      "source": [
+        "print (\"hello world\")"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Assignment Operator (=): It is used to assign a value to a variable. For example, x = 10 assigns the value 10 to the variable x.\n",
+        "Equality Operator (==): It is used to compare two values. It returns True if the values are equal, otherwise False. For example, x == 10 checks if the value of x is equal to 10."
+      ],
+      "metadata": {
+        "id": "YQFoiSsYh7Ur"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Exploring Data Types and Writing Code:"
+      ],
+      "metadata": {
+        "id": "Hq8A5JwfiM85"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "integer_var = 10\n",
+        "\n",
+        "\n",
+        "float_var = 3.14\n",
+        "\n",
+        "\n",
+        "string_var = \"Hello, World!\"\n",
+        "\n",
+        "\n",
+        "bool_var = True\n",
+        "\n",
+        "print(integer_var,float_var,string_var,bool_var)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "JbYkIgIYiPEg",
+        "outputId": "505469a4-1099-4fbd-cd14-64c39728e17f"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "10 3.14 Hello, World! True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Rules for Variable Names:\n",
+        "\n",
+        "Variable names must start with a letter (a-z, A-Z) or an underscore (_).\n",
+        "The rest of the variable name can consist of letters, numbers (0-9), and underscores.\n",
+        "Variable names are case-sensitive.\n",
+        "Variable names cannot be Python keywords."
+      ],
+      "metadata": {
+        "id": "WvNXcKt2im2Q"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Declare and Initialize Multiple Variables:"
+      ],
+      "metadata": {
+        "id": "wHnIpRXvipoR"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "x, y, z = 10, 20, 30\n",
+        "\n",
+        "a = b = c = 5\n",
+        "\n",
+        "#1name= \"Talha\"\n",
+        "#@age=13\n",
+        "Age=12\n",
+        "AGE=11\n",
+        "age=17\n",
+        "height2=5.7\n",
+        "reg_no=\"B22F0442Ai089\"\n",
+        "section=\"Blue\"\n",
+        "chr=\"T\"\n",
+        "\n",
+        "\n",
+        "print(height2)\n",
+        "print(AGE)\n",
+        "print(Age)\n",
+        "print(age)\n",
+        "\n",
+        "\n",
+        "print(x,y,z)\n",
+        "print(a,b,c)\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "RehrBQLkiueo",
+        "outputId": "60d6579f-0999-442a-bfd7-8120e72cdb75"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "5.7\n",
+            "11\n",
+            "12\n",
+            "17\n",
+            "10 20 30\n",
+            "5 5 5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "CufwQ6TpiuUa"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=  \"talha\"\n",
+        "b=\"b22f0442ai089\"\n",
+        "c=\"section Ai blue\"\n",
+        "d=\" Sgpa \",3.2\n",
+        "print (a,\"\\n\",b,\"\\n\",c,\"\\n\",d)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "KpAEhbb74fxH",
+        "outputId": "fbd672f2-70dc-428a-8d9d-cb5d5538debf"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "talha \n",
+            " b22f0442ai089 \n",
+            " section Ai blue \n",
+            " (' Sgpa ', 3.2)\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Arithmetic Operations"
+      ],
+      "metadata": {
+        "id": "IvQFHqGXi-Af"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "A=11\n",
+        "B=12\n",
+        "C=A+B\n",
+        "D=A/B\n",
+        "E=A-B\n",
+        "F=A*B\n",
+        "print(\"A + B = \",C)\n",
+        "print(\"A - B = \",E)\n",
+        "print(\"A * B = \",F)\n",
+        "print(\"A / B = \",D)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3daXGdldxNpw",
+        "outputId": "e35e2051-0d2c-4dca-ac10-a2b971cd887f"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "A + B =  23\n",
+            "A + B =  23\n",
+            "A + B =  23\n",
+            "A + B =  23\n",
+            "A + B =  23\n",
+            "A - B =  -1\n",
+            "A * B =  132\n",
+            "A / B =  0.9166666666666666\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=1\n",
+        "b=8\n",
+        "c=a+b,a-b,a*b,a/b\n",
+        "print(c)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "08yzAVBJy2Jk",
+        "outputId": "457da8f2-1d05-4a1e-f25b-58cd13a17ef0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "(9, -7, 8, 0.125)\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = int(input(\"Enter an integer number: \"))\n",
+        "\n",
+        "if a % 2 == 0:\n",
+        "    print(\"Number is even\")\n",
+        "else:\n",
+        "    print(\"Number is odd\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "I6r3n9C3zvso",
+        "outputId": "36504a60-1c9b-4180-a829-fad90380d356"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter an integer number: 1\n",
+            "Number is odd\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "STRING LITERALS"
+      ],
+      "metadata": {
+        "id": "pSpa2qgHxWrK"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name='My name is TAlha'\n",
+        "myname=\"My name is Talha\"\n",
+        "my_name=\"'My name is talha'\"\n",
+        "print(name)\n",
+        "print(myname)\n",
+        "print(my_name)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "pLVyexwexZ2X",
+        "outputId": "80fba533-bc42-43e1-8f1c-9912f478623b"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "My name is TAlha\n",
+            "My name is Talha\n",
+            "'My name is talha'\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "EXAMPLE OF USING PRINT() FUNCTION"
+      ],
+      "metadata": {
+        "id": "0i7AgV7uyJdG"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "x = 10\n",
+        "print(x)\n",
+        "\n",
+        "\n",
+        "y = 20\n",
+        "print(x, y)\n",
+        "\n",
+        "\n",
+        "name = \"TALHA\"\n",
+        "age = 20\n",
+        "print(f\"My name is {name} and I am {age} years old.\")\n",
+        "\n",
+        "\n",
+        "a = 5\n",
+        "b = 3\n",
+        "print(f\"The sum of {a} and {b} is {a + b}.\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "qUz61MP7yOms",
+        "outputId": "092a1e13-95b8-4a15-f18c-b72574101136"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "10\n",
+            "10 20\n",
+            "My name is TALHA and I am 20 years old.\n",
+            "The sum of 5 and 3 is 8.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "JamKUviK1pR0"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
